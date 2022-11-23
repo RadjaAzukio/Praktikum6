@@ -1,4 +1,4 @@
-![Gambar1](pk6/6.11.jpg)
+![Gambar1](pk6/6.12.jpg)
 #### Keterangan Flowchart : 
 1. ```Data = {}```
 2. ``` while True:```
