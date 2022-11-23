@@ -89,7 +89,7 @@ if List.lower() == 't':
         Data[nama] = nim, tugas, uts, uas, akhir
 ```
 - Disini apabila kita menginputkan 't' maka kita akan diminta untuk menginputkan beberapa data. Data yang kita inputkan akan masuk ke dictionary 'Data' yang telah dibuat tadi dengan data 'nama' sebagai keys dan sisanya sebagai values.
-![Gambar1](pk/6.4.png)
+![Gambar1](pk6/6.4.png)
 - Membuat syntax untuk mengubah data.
 ```
 elif List.lower() == 'u':
@@ -106,7 +106,7 @@ elif List.lower() == 'u':
             print("Nama {0} tidak ditemukan".format(nama))
 ```
 - Apabila kita menginput 'u' maka akan ada keterangan untuk mengubah data dan kita akan diminta untuk menginputkan nama yang mau diubah datanya, apabila nama tidak ada maka outputnya "Nama {} tidak ditemukan". Dimana ```{}``` adalah nama/data yang mau kita ubah.
-![Gambar1](pk/6.5.png)
+![Gambar1](pk6/6.5.png)
 - Membuat syntax untuk menghapus data.
 ```
 elif List.lower() == 'h':
@@ -118,7 +118,7 @@ elif List.lower() == 'h':
             print("Nama {0} Tidak Ditemukan".format(nama))
 ```
 - Apabila kita menginput 'h' maka kita akan diminta menginput nama yang akan dihapus. Jika nama ada di dalam dictionary, maka system akan menghapus keys/nama tersebut beserta valuesnya pada statement ```del Data[nama]```.
-![Gambar1](pk/6.6.png)
+![Gambar1](pk6/6.6.png)
 - Membuat syntax untuk mencari data
 ```
 elif List.lower() == 'c':
@@ -137,7 +137,7 @@ elif List.lower() == 'c':
             print("Nama {0} Tidak Ditemukan".format(nama))
 ```
 - Apabila kita menginputkan 'c' maka kita akan diminta untuk memasukkan nama yang akan dicari. Apabila nama yang dicari ada di dalam dictionary maka outputnya akan menampilkan data dari nama tersebut.
-![Gambar1](pk/6.7.png)
+![Gambar1](pk6/6.7.png)
 - Membuat syntax untuk melihat atau menampilkan data.
 ```
 elif List.lower() == 'l':
@@ -163,18 +163,18 @@ elif List.lower() == 'l':
             print("="*78)
 ```
 - Apabila kita menginput 'l' maka sistem akan menampilkan data - data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
-![Gambar1](pk/6.8.png)
+![Gambar1](pk6/6.8.png)
 - Membuat syntax untuk menghentikan perulangan.
 ```
  elif List.lower() == 'k':
             break
 ```
 - Apabila kita menginput 'k' maka program akan langsung berhenti.
-![Gambar1](pk/6.9.png)
+![Gambar1](pk6/6.9.png)
 - Membuat syntax untuk apabila memilih pilihan yang tidak ada di menu.
 ```
  else:
         print("Pilih menu yang tersedia")
 ```
 - Jika kita menginputkan selain yang ada pada menu (t, u, h, c, l, k) maka kita akan diminta untuk memilih menu yang tersedia.
-![Gambar1](pk/6.10.png)
+![Gambar1](pk6/6.10.png)
