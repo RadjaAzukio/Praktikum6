@@ -45,7 +45,7 @@ telp['Riko'] = '087654544'
 ```
 - Ubah kontak Dina dengan nomor baru 088999776
 ```
-telp['Dina'] = '088999776
+telp['Dina'] = '088999776'
 ```
 - Tampilkan semua Nama
 ```
